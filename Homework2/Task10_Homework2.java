@@ -1,3 +1,5 @@
+package JC1.Homework.Homework2.Homework2_Correction;
+
 // Есть двумерный массив (MxN) целых чисел (от 0 до 9). С помощью команд 
 // System.out.println и System.out.print вывести в консоль весь массив как в 
 // примере ниже. По возможности использовать чикл for-each;
@@ -5,7 +7,6 @@
 //      8 9 7 0
 //      6 6 4 3
 
-package JC1.Homework.Homework2.Homework2v1;
 public class Task10_Homework2 {
     
     static void printArray(int[][] nums) {

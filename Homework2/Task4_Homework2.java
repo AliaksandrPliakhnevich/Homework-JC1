@@ -1,7 +1,8 @@
+package JC1.Homework.Homework2.Homework2_Correction;
+
 //Есть массив из десяти целых чисел. Необходимо вывести максимальное и 
 //минимальное число из массива;
 
-package JC1.Homework.Homework2.Homework2v1;
 public class Task4_Homework2 {
     
     public static void maxMinFromArray (int[] nums){
@@ -14,7 +15,7 @@ public class Task4_Homework2 {
                 min = nums[i];
             }
         }
-        System.out.println("Максимальное число: "+max+", минимальное число: "+min);
+        System.out.println("Максимальное число: " + max + ", минимальное число: " + min);
     }
     public static void main(String[] args) {
         int[] array = {5, 4, 8, 46, -95, 85, 78, 10, 1, 100};

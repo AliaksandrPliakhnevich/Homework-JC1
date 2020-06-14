@@ -1,6 +1,7 @@
+package JC1.Homework.Homework2.Homework2_Correction;
+
 // Есть массив из десяти целых чисел. Необходимо посчитать среднее 
 // арифметическое для всех элементов массива;
-package JC1.Homework.Homework2.Homework2v1;
 
 public class Task8_Homework2 {
     public static void avArifm(int[] nums) {

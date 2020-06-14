@@ -1,5 +1,7 @@
+package JC1.Homework.Homework2.Homework2_Correction;
+
 //Посчитать сумму всех чисел от 0 до N. Реализовать задание через while;
-package JC1.Homework.Homework2.Homework2v1;
+
 public class Task1_Homework2 {
     
     public static void sumToN (int n) {

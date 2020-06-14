@@ -1,19 +1,36 @@
+package JC1.Homework.Homework2.Homework2_Correction;
+
 // Есть массив чисел с плавающей запятой. Необходимо реализовать сортировку 
 // методом выбора по возрастанию и по убыванию;
 
-package JC1.Homework.Homework2.Homework2v1;
 public class Task12_Homework2 {
     
     static void selectionSortMinMax(double[] nums){
-        for(int i = 0; i + 1 < nums.length; i++){
+        /** NOTE! Немного не верная реализация. В соответствии с
+         * этим алгоритмом, тебе нужно найти минимальный или максимальный
+         * элемент (начиная от i+1) и поменять его с i-м. А у тебя получается, что
+         * один элемент перемещается по массиву постоянно. Это больше
+         * на пузырек похоже.
+         *
+         * http://study-java.ru/uroki-java/urok-11-sortirovka-massiva/
+         * */
+        
+        // исправил
+        for (int i = 0; i + 1 < nums.length; i++){
+            double min = nums[i];
+            int indexMin = i;
             for (int j = i + 1; j < nums.length; j++){
-                if (nums[j] < nums[i]){
-                    double swap = nums[j];
-                    nums[j] = nums[i];
-                    nums[i] = swap;
+                if (nums[j] < min){
+                    min = nums[j];
+                    indexMin = j;
                 }
             }
-        }     
+            if (i < indexMin){
+                double swap = nums[indexMin];
+                nums[indexMin] = nums[i];
+                nums[i] = swap;
+            }            
+        }   
         for(double element: nums){
             System.out.print(element + " ");
         }
@@ -21,15 +38,21 @@ public class Task12_Homework2 {
     }
     
     static void selectionSortMaxMin(double[] nums){
-        for(int i = 0; i < nums.length; i++){
-            for (int j = i+1; j < nums.length; j++){
-                if (nums[j] > nums[i]){
-                    double swap = nums[j];
-                    nums[j] = nums[i];
-                    nums[i] = swap;
+        for (int i = 0; i + 1 < nums.length; i++){
+            double max = nums[i];
+            int indexMax = i;
+            for (int j = i + 1; j < nums.length; j++){
+                if (nums[j] > max){
+                    max = nums[j];
+                    indexMax = j;
                 }
             }
-        }     
+            if (i < indexMax){
+                double swap = nums[indexMax];
+                nums[indexMax] = nums[i];
+                nums[i] = swap;
+            }            
+        }   
         for(double element: nums){
             System.out.print(element + " ");
         }

@@ -1,6 +1,8 @@
+package JC1.Homework.Homework2.Homework2_Correction;
+
 // Есть массив из десяти целых чисел. Заменить каждый элемент с нечетным 
 // индексом на 0;
-package JC1.Homework.Homework2.Homework2v1;
+
 public class Task7_Homework2 {
     public static void go(int[] nums) {
         for (int i = 1; i < nums.length; i += 2){ //итерацию выполняю сразу по нечетным элементам

@@ -1,6 +1,8 @@
+package JC1.Homework.Homework2.Homework2_Correction;
+
 // Есть массив чисел с плавающей запятой. Необходимо реализовать сортировку 
 // пузырьком по возрастанию и по убыванию;
-package JC1.Homework.Homework2.Homework2v1;
+
 public class Task11_Homework2 {
     
     static void bubbleSortMinMax(double[] nums){

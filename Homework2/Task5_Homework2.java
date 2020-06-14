@@ -1,6 +1,8 @@
+package JC1.Homework.Homework2.Homework2_Correction;
+
 // Есть массив из десяти целых чисел. 
 // Необходимо поменять элементы массива в обратном порядке;
-package JC1.Homework.Homework2.Homework2v1;
+
 public class Task5_Homework2 {
     
     public static void reverseArray(int[] nums){

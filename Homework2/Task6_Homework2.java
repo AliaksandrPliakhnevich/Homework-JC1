@@ -1,7 +1,9 @@
+package JC1.Homework.Homework2.Homework2_Correction;
+
 //Есть массив из десяти целых чисел. Необходимо заменить каждый четный элемент
 //массива на его удвоенное произведение (т.е. возвести квадрат). Например, есть 
 //массив [1, 2, 3, 4], тогда результатом должен быть [1, 4, 3, 16];
-package JC1.Homework.Homework2.Homework2v1;
+
 public class Task6_Homework2 {
     
     public static void go(int[] nums){
