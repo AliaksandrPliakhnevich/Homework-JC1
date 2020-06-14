@@ -1,4 +1,4 @@
-package JC1.Homework.Homework4.Homework4v1;
+package JC1.Homework.Homework4.Homework4v2;
 public class NumberGenerator {
     
     public static int[] generateNumbers(int n){
