@@ -1,0 +1,9 @@
+[12:05:40] - Program started
+[12:05:42] - Reading files
+[12:05:44] - Reading file named: 1.txt
+[12:05:47] - Reading files
+[12:05:52] - Deleting file named: new6.txt
+[12:06:11] - All files from directory added to BackUp file
+[12:06:20] - All files restored from last BackUp file
+[12:06:26] - Program finished
+
